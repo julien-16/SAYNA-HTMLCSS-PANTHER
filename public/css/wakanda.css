@@ -1,0 +1,57 @@
+@import url('./style.css');
+
+p{
+    color: var(--whiteColor);
+    font-size: 16px;
+    font-family: 'canarell';
+}
+h1{
+    font-family: 'beyno';
+    letter-spacing: -4px;
+} 
+main .wakanda_section{
+    background-image: url('../Assets/Wakanda/panther.png');
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+main .wakanda_section .wakanda_header{
+    margin-left:100px;
+    padding-top: 150px;
+    width: 60%;
+}
+main .wakanda_section .wakanda_header h2{
+    text-align: left;
+    font-family: 'wakandaforever';
+    margin-top: -50px;
+}
+main .wakanda_section .wakanda_header p{
+    font-family: 'cantarell';
+    font-size: 12px;
+    width: 70%;
+    text-align: justify;
+}
+main .display_section{
+    background-image: url('../Assets/Wakanda/Pantherwakanda2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main .display_contents{
+    text-align: justify;
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+main .display_contents .left_side{
+    width: 45%;
+}
+main .display_contents .right_side{
+    width: 45%;
+}
+main .display_contents .right_side  img{
+    width: 100%;
+}
